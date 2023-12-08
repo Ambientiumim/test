@@ -2,7 +2,13 @@
 
 This Python script is designed to interact with a blockchain, specifically for managing Dynamic Non-Fungible Tokens (NFTs) using smart contracts.
 It includes various functionalities such as token burning, metadata creation, and image generation.
-Here's an overview of the key components and functionalities:
+The script is intended to be run as a standalone Python program.
+The script is heavily dependent on external services and the Ethereum blockchain.
+Proper error handling and logging are implemented for robustness.
+It's designed to work with a specific Ethereum smart contract,.
+The script demonstrates advanced usage of Python for blockchain interactions and asynchronous programming.
+
+## Here's an overview of the key components and functionalities:
 
 ### Import Libraries:
 The script imports necessary libraries including json, os, asyncio, web3, dotenv, openai, requests, and datetime.
